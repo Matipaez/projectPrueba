@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A931AD5E28C03CC100EC4555 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931AD5C28C03CC100EC4555 /* ChannelCell.swift */; };
+		A931AD5E28C03CC100EC4555 /* ChanelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931AD5C28C03CC100EC4555 /* ChanelCell.swift */; };
 		A931AD5F28C03CC100EC4555 /* ChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A931AD5D28C03CC100EC4555 /* ChannelCell.xib */; };
 		A931AD6228C03CD600EC4555 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931AD6028C03CD600EC4555 /* VideoCell.swift */; };
 		A931AD6328C03CD600EC4555 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A931AD6128C03CD600EC4555 /* VideoCell.xib */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A931AD5C28C03CC100EC4555 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = SOURCE_ROOT; };
+		A931AD5C28C03CC100EC4555 /* ChanelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChanelCell.swift; sourceTree = SOURCE_ROOT; };
 		A931AD5D28C03CC100EC4555 /* ChannelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelCell.xib; sourceTree = SOURCE_ROOT; };
 		A931AD6028C03CD600EC4555 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = SOURCE_ROOT; };
 		A931AD6128C03CD600EC4555 /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = SOURCE_ROOT; };
@@ -50,7 +50,7 @@
 		A931AD5528C03BB100EC4555 /* GroupCells */ = {
 			isa = PBXGroup;
 			children = (
-				A931AD5C28C03CC100EC4555 /* ChannelCell.swift */,
+				A931AD5C28C03CC100EC4555 /* ChanelCell.swift */,
 				A931AD5D28C03CC100EC4555 /* ChannelCell.xib */,
 				A931AD6028C03CD600EC4555 /* VideoCell.swift */,
 				A931AD6128C03CD600EC4555 /* VideoCell.xib */,
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A931AD6228C03CD600EC4555 /* VideoCell.swift in Sources */,
-				A931AD5E28C03CC100EC4555 /* ChannelCell.swift in Sources */,
+				A931AD5E28C03CC100EC4555 /* ChanelCell.swift in Sources */,
 				A96E5FA128BD9DBD00BF1C28 /* AppDelegate.swift in Sources */,
 				A96E5FA328BD9DBD00BF1C28 /* SceneDelegate.swift in Sources */,
 				A931AD6628C03CF300EC4555 /* PlaylistCell.swift in Sources */,
