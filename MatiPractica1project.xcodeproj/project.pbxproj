@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A931AD5E28C03CC100EC4555 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931AD5C28C03CC100EC4555 /* ChannelCell.swift */; };
+		A931AD5F28C03CC100EC4555 /* ChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A931AD5D28C03CC100EC4555 /* ChannelCell.xib */; };
+		A931AD6228C03CD600EC4555 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931AD6028C03CD600EC4555 /* VideoCell.swift */; };
+		A931AD6328C03CD600EC4555 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A931AD6128C03CD600EC4555 /* VideoCell.xib */; };
+		A931AD6628C03CF300EC4555 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931AD6428C03CF300EC4555 /* PlaylistCell.swift */; };
+		A931AD6728C03CF300EC4555 /* PlaylistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A931AD6528C03CF300EC4555 /* PlaylistCell.xib */; };
 		A96E5FA128BD9DBD00BF1C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E5FA028BD9DBD00BF1C28 /* AppDelegate.swift */; };
 		A96E5FA328BD9DBD00BF1C28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E5FA228BD9DBD00BF1C28 /* SceneDelegate.swift */; };
-		A96E5FA528BD9DBD00BF1C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E5FA428BD9DBD00BF1C28 /* ViewController.swift */; };
 		A96E5FA828BD9DBD00BF1C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96E5FA628BD9DBD00BF1C28 /* Main.storyboard */; };
 		A96E5FAA28BD9DBE00BF1C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96E5FA928BD9DBE00BF1C28 /* Assets.xcassets */; };
 		A96E5FAD28BD9DBE00BF1C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96E5FAB28BD9DBE00BF1C28 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A931AD5C28C03CC100EC4555 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = SOURCE_ROOT; };
+		A931AD5D28C03CC100EC4555 /* ChannelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelCell.xib; sourceTree = SOURCE_ROOT; };
+		A931AD6028C03CD600EC4555 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = SOURCE_ROOT; };
+		A931AD6128C03CD600EC4555 /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = SOURCE_ROOT; };
+		A931AD6428C03CF300EC4555 /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = SOURCE_ROOT; };
+		A931AD6528C03CF300EC4555 /* PlaylistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistCell.xib; sourceTree = SOURCE_ROOT; };
 		A96E5F9D28BD9DBD00BF1C28 /* MatiPractica1project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatiPractica1project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96E5FA028BD9DBD00BF1C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96E5FA228BD9DBD00BF1C28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A96E5FA428BD9DBD00BF1C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A96E5FA728BD9DBD00BF1C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A96E5FA928BD9DBE00BF1C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A96E5FAC28BD9DBE00BF1C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A931AD5528C03BB100EC4555 /* GroupCells */ = {
+			isa = PBXGroup;
+			children = (
+				A931AD5C28C03CC100EC4555 /* ChannelCell.swift */,
+				A931AD5D28C03CC100EC4555 /* ChannelCell.xib */,
+				A931AD6028C03CD600EC4555 /* VideoCell.swift */,
+				A931AD6128C03CD600EC4555 /* VideoCell.xib */,
+				A931AD6428C03CF300EC4555 /* PlaylistCell.swift */,
+				A931AD6528C03CF300EC4555 /* PlaylistCell.xib */,
+			);
+			path = GroupCells;
+			sourceTree = "<group>";
+		};
 		A96E5F9428BD9DBD00BF1C28 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +81,7 @@
 			children = (
 				A96E5FA028BD9DBD00BF1C28 /* AppDelegate.swift */,
 				A96E5FA228BD9DBD00BF1C28 /* SceneDelegate.swift */,
-				A96E5FA428BD9DBD00BF1C28 /* ViewController.swift */,
+				A931AD5528C03BB100EC4555 /* GroupCells */,
 				A96E5FA628BD9DBD00BF1C28 /* Main.storyboard */,
 				A96E5FA928BD9DBE00BF1C28 /* Assets.xcassets */,
 				A96E5FAB28BD9DBE00BF1C28 /* LaunchScreen.storyboard */,
@@ -125,7 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A931AD6328C03CD600EC4555 /* VideoCell.xib in Resources */,
 				A96E5FAD28BD9DBE00BF1C28 /* LaunchScreen.storyboard in Resources */,
+				A931AD5F28C03CC100EC4555 /* ChannelCell.xib in Resources */,
+				A931AD6728C03CF300EC4555 /* PlaylistCell.xib in Resources */,
 				A96E5FAA28BD9DBE00BF1C28 /* Assets.xcassets in Resources */,
 				A96E5FA828BD9DBD00BF1C28 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96E5FA528BD9DBD00BF1C28 /* ViewController.swift in Sources */,
+				A931AD6228C03CD600EC4555 /* VideoCell.swift in Sources */,
+				A931AD5E28C03CC100EC4555 /* ChannelCell.swift in Sources */,
 				A96E5FA128BD9DBD00BF1C28 /* AppDelegate.swift in Sources */,
 				A96E5FA328BD9DBD00BF1C28 /* SceneDelegate.swift in Sources */,
+				A931AD6628C03CF300EC4555 /* PlaylistCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
